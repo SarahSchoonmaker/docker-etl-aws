@@ -1,9 +1,8 @@
-# weather-app
-This is the repo of the Weather app from my YouTube video
+
 
 # Project structure
-In this project you build a end-to-end pipeline from requesting weather data from an API to visualizing the results on a Dashboard.
-As tools we use the weather api, Docker, AWS Elastic container registry, AWS Lambda, AWS EventBridge and Grafana as the dashboard solution.
+End-to-end pipeline requesting weather data from an API and visualizing the results on a Dashboard.
+I use the weather api, Docker, AWS Elastic container registry, AWS Lambda, AWS EventBridge and Grafana as the dashboard solution.
 Here's an overview of the pipeline:
 ![Project setup image](/assets/project-structure.png)
 
@@ -37,6 +36,4 @@ Here's an overview of the pipeline:
 - TDengine stream processing, caching and data subscription [Streaming features](https://tdengine.com/tdengine/simplified-time-series-data-solution/)
 - time series extentions like time weighted average rate of change and more [functions](https://docs.tdengine.com/taos-sql/function/#time-series-extensions)
 - Performance comparison influxdb timescaledb and TDengine [Benchmark comparions](https://tdengine.com/devops-performance-comparison-influxdb-and-timescaledb-vs-tdengine/)
-# docker-etl-aws
-# docker-etl-aws
-# docker-etl-aws
+
